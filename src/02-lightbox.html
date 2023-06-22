@@ -4,26 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Image gallery</title>
+    <title>SimpleLightbox library</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.12.1/simple-lightbox.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
     <!-- Add gallery items to this list -->
     <ul class="gallery"></ul>
-    <li class="gallery__item">
-      <a class="gallery__link" href="large-image.jpg">
-        <img
-          class="gallery__image"
-          src="small-image.jpg"
-          data-source="large-image.jpg"
-          alt="Image description"
-        />
-      </a>
-      <!-- Trouble with Github I need to change something so it will hopefully push-->
-    </li>
-    <script src="js/01-gallery.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.12.1/simple-lightbox.min.js"></script>
+    <script src="js/02-lightbox.js" type="module"></script>
   </body>
 </html>
